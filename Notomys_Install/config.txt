@@ -1,0 +1,15 @@
+account billing {
+set imap-use-starttls
+set imap-auth=login
+set folder=imaps://billing%40cnsb.global@mail.cnsb.global/INBOX.
+set password-billing%40cnsb.global@mail.cnsb.global=crbltarkan1
+set record=+Sent
+set smtp-use-starttls
+set smtp=smtp://mail204.livehostsupport.com:587
+set smtp-auth=login
+set smtp-auth-user=billing@cnsb.global
+set smtp-auth-password=crbltarkan1
+set from="CNSB-BILLING <billing@cnsb.global>"
+set ssl-verify=ignore
+}
+
